@@ -272,7 +272,7 @@ input.search-form:hover {
     margin-bottom: 0;
     background: #151515;
     padding: 15px 0;
-    padding-bottom: 0;
+    padding-bottom: 5px;
 }
 
 .navbar-nav {
@@ -922,7 +922,7 @@ a.accordion-toggle i {
     height: 80px;
     background-color: #EC5538;
     top: 50%;
-    left: 50%;
+    left: 65%;
     color: #fff;
     text-align: center;
     line-height: 76px;
@@ -1115,6 +1115,11 @@ a.accordion-toggle i {
 
 .about-img{
     padding-right: 70px;
+    margin-left: 30px;
+}
+
+.about-img img {
+  width: 500px;
 }
 
 .about-content{
@@ -2360,4 +2365,8 @@ shortcodes page css
 #rights
 {
   padding-top: 20px;
+}
+
+.slide-img {
+  width: 100px;
 }
