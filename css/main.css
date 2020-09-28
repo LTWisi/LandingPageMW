@@ -194,8 +194,11 @@ body>section {
 *******Header******
 **************************/
 
-#header .search {
-    display: inline-block;
+#header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .navbar>.container .navbar-brand {
@@ -283,8 +286,8 @@ input.search-form:hover {
     border-radius: 0;
     margin-bottom: 0;
     background: #151515;
-    padding: 15px 0;
-    padding-bottom: 5px;
+    padding: 5px 0;
+    padding-bottom: 0px;
 }
 
 .navbar-nav {
