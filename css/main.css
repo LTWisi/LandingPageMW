@@ -202,6 +202,14 @@ body>section {
   width: 100;
 }
 
+.media-body p {
+  text-align: justify;
+}
+
+.media-body h2 {
+  text-align: center;
+}
+
 .navbar>.container .navbar-brand {
     margin-left: 0;
 }
