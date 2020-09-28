@@ -47,14 +47,26 @@ h4 {
 }
 
 a {
-    color: #EC5538;
+    color: white;
     -webkit-transition: color 300ms, background-color 300ms;
     transition: color 300ms, background-color 300ms;
 }
 
-a:hover,
-a:focus {
-    color: #EC5538;
+.link:hover {
+  color: white;
+  font-size: 20px;
+}
+
+.link:focus {
+  color: white;
+}
+
+#boton {
+  background-color: black;
+}
+
+#boton:hover {
+  font-size: 20px;
 }
 
 hr {
@@ -232,8 +244,8 @@ ul.social-share li a {
 }
 
 ul.social-share li a:hover {
-    background: #EC5538;
-    color: #fff;
+    background: white;
+    color: black;
 }
 
 .search i {
@@ -295,8 +307,9 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-    background-color: #EC5538;
-    color: #fff;
+    background-color: #fff;
+    color: black;
+    font-style: oblique;
 }
 
 .navbar-inverse {
@@ -315,8 +328,8 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav>.open>a,
 .navbar-inverse .navbar-nav>.open>a:hover,
 .navbar-inverse .navbar-nav>.open>a:focus {
-    background-color: #EC5538;
-    color: #fff;
+    background-color: white;
+    color: black;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu {
@@ -459,8 +472,8 @@ input.search-form:hover {
 #main-slider .next {
     position: absolute;
     top: 50%;
-    background-color: #EC5538;
-    color: #fff;
+    background-color: #fff;
+    color: black;
     display: inline-block;
     margin-top: -25px;
     height: 40px;
@@ -475,6 +488,7 @@ input.search-form:hover {
 #main-slider .prev:hover,
 #main-slider .next:hover {
     background-color: #000;
+    color: #fff;
 }
 
 #main-slider .prev {
@@ -502,8 +516,8 @@ input.search-form:hover {
 }
 
 #main-slider .carousel-indicators li.active {
-    background-color: #EC5538;
-    border: 1px solid #EC5538
+    background-color: #fff;
+    border: 1px solid black;
 }
 
 #main-slider .active .animation.animated-item-1 {
@@ -899,8 +913,8 @@ a.accordion-toggle i {
 #content .nav-tabs>li.active>a,
 #content .nav-tabs>li.active>a:hover,
 #content .nav-tabs>li.active>a:focus {
-    color: #EC5538;
-    background-color: #F9FAFB;
+    color: white;
+    background-color: black;
     border: 1px solid #E9EFF4;
     font-weight: 500;
     -webkit-transition: .4s;
@@ -920,7 +934,7 @@ a.accordion-toggle i {
     position: absolute;
     width: 80px;
     height: 80px;
-    background-color: #EC5538;
+    background-color: red;
     top: 50%;
     left: 65%;
     color: #fff;
@@ -938,7 +952,7 @@ a.accordion-toggle i {
 }
 
 .nav-tabs>li>a {
-    color: #666;
+    color: black;
     border-radius: 0;
     border: 1px solid transparent;
     line-height: 24px;
@@ -1353,8 +1367,7 @@ a.accordion-toggle i {
 .portfolio-filter>li a:hover,
 .portfolio-filter>li a.active {
     color: #fff;
-    background: #EC5538;
-    border: 1px solid #EC5538;
+    background: black;
     box-shadow: none;
     -webkit-box-shadow: none;
 }
@@ -1987,7 +2000,7 @@ ul.sidebar-gallery{
 .sidebar-gallery li a {
     border-radius: 4px;
     display: block;
-    padding: 0 15px
+    padding: 0 15px;
 }
 
 
@@ -2333,7 +2346,8 @@ shortcodes page css
 }
 
 #footer a:hover {
-    color: #EC5538;
+    color: white;
+    font-size: 15px;
 }
 
 #footer ul {
