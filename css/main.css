@@ -47,13 +47,13 @@ h4 {
 }
 
 a {
-    color: white;
+    color: #C7A349;
     -webkit-transition: color 300ms, background-color 300ms;
     transition: color 300ms, background-color 300ms;
 }
 
 .link:hover {
-  color: white;
+  color: #C7A349;
   font-size: 20px;
 }
 
@@ -222,7 +222,7 @@ body>section {
 }
 
 .top-number {
-    color: #fff;
+    color: #C7A349;
 }
 
 .top-number p {
@@ -246,8 +246,8 @@ ul.social-share li {
 
 ul.social-share li a {
     display: inline-block;
-    color: #fff;
-    background: #404040;
+    color: black;
+    background: #C7A349;
     width: 25px;
     height: 25px;
     line-height: 25px;
@@ -256,8 +256,8 @@ ul.social-share li a {
 }
 
 ul.social-share li a:hover {
-    background: white;
-    color: black;
+    background: #C7A349;
+    color: white;
 }
 
 .search i {
@@ -319,8 +319,8 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-    background-color: #fff;
-    color: black;
+    background-color: #C7A349;
+    color: white;
     font-style: oblique;
 }
 
@@ -340,8 +340,8 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav>.open>a,
 .navbar-inverse .navbar-nav>.open>a:hover,
 .navbar-inverse .navbar-nav>.open>a:focus {
-    background-color: white;
-    color: black;
+    background-color: #C7A349;
+    color: white;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu {
@@ -484,7 +484,7 @@ input.search-form:hover {
 #main-slider .next {
     position: absolute;
     top: 50%;
-    background-color: #fff;
+    background-color: #C7A349;
     color: black;
     display: inline-block;
     margin-top: -25px;
@@ -524,12 +524,12 @@ input.search-form:hover {
     background-color: transparent;
     margin: 0 5px;
     position: relative;
-    border: 1px solid #fff;
+    border: 1px solid white;
 }
 
 #main-slider .carousel-indicators li.active {
-    background-color: #fff;
-    border: 1px solid black;
+    background-color: black;
+    border: 1px solid #C7A349;
 }
 
 #main-slider .active .animation.animated-item-1 {
